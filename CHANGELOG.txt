@@ -1,0 +1,15 @@
+WiFi Password Viewer — Changelog
+
+Version 1.2 (2025-10-25)
+- Added PIN protection for revealing passwords
+- Auto-clear clipboard after configurable seconds
+- Optional local logging of activity (opt-in)
+- Headless/CLI mode: --list, --current-only, --get "SSID"
+- GUI improvements: status bar, refresh button, copy last password
+- Fixed encoding issues with non-ASCII SSIDs
+- Improved error handling and diagnostic messages
+
+Version 1.1
+- Initial release with GUI to list profiles and reveal passwords
+- Supports copying password to clipboard
+- Highlights currently connected SSID
